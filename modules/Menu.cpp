@@ -4,12 +4,10 @@ using namespace std;
 // Menu Class
 class Menu{
   private:
-
   int optionCounter = 0;
   int indent = 0;
 
   public:
-
   // Prints Header
   void header(const string str){
     cout << str << endl;
@@ -145,3 +143,8 @@ class Menu{
     } else this->entry(key, value);
   }
 };
+
+/*
+  Abdullah Ahmad
+  Dec 14th 2021
+*/
