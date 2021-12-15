@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ code.cpp -o out -lmysqlcppconn; ./out
