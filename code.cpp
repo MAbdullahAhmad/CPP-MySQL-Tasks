@@ -3,7 +3,6 @@
 #include <iomanip>
 #include "modules/Connection.cpp"
 #include "modules/Menu.cpp"
-
 using namespace std;
 
 // Functions
@@ -33,6 +32,7 @@ int main(){
     command = displayMenu();
     menu->end();
 
+    // Conditions on Menu Commands
     if (command == "4"){
       menu->row("Goodbye...");
       break;
